@@ -5,7 +5,7 @@ Halaman ini menjelaskan prosedur untuk meminta penghapusan akun dan data terkait
 ## 1. Cara Mengajukan Penghapusan Akun
 Jika Anda menggunakan fitur berbasis akun atau cloud sync pada aplikasi Dompet Harian Dukeduk, Anda dapat mengajukan penghapusan data dengan cara berikut:
 * **Melalui Aplikasi:** Buka aplikasi -> Masuk ke menu **Pengaturan/Akun** -> Pilih opsi **Hapus Akun** -> Konfirmasi penghapusan.
-* **Melalui Email:** Kirimkan email permintaan dari alamat email yang terdaftar ke: **email-anda@domain.com** dengan subjek: *"Permintaan Hapus Akun Dompet Harian Dukeduk"*. Tim kami akan memprosesnya dalam waktu maksimal 2x24 jam.
+* **Melalui Email:** Kirimkan email permintaan dari alamat email yang terdaftar ke: **ronald.yonatan83@gmail.com* dengan subjek: *"Permintaan Hapus Akun Dompet Harian Dukeduk"*. Tim kami akan memprosesnya dalam waktu maksimal 2x24 jam.
 
 ## 2. Penghapusan Data Lokal (Offline Mode)
 * Jika aplikasi Anda sepenuhnya berjalan secara lokal (*offline*) di perangkat Anda, seluruh data keuangan dan transaksi tersimpan di database internal perangkat Anda sendiri.
