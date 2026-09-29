@@ -1,1 +1,163 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kebijakan Privasi - Dompet Harian Dukeduk</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #1e293b;
+            background-color: #f8fafc;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        }
+        h1 {
+            color: #1A237E;
+            font-size: 2rem;
+            margin-bottom: 8px;
+        }
+        .effective-date {
+            color: #64748b;
+            font-size: 0.9rem;
+            margin-bottom: 24px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        h2 {
+            color: #1A237E;
+            font-size: 1.25rem;
+            margin-top: 28px;
+            margin-bottom: 12px;
+        }
+        h3 {
+            font-size: 1rem;
+            color: #334155;
+            margin-top: 16px;
+            margin-bottom: 8px;
+        }
+        p {
+            margin-bottom: 12px;
+            color: #334155;
+        }
+        ul {
+            margin-left: 20px;
+            margin-bottom: 16px;
+        }
+        li {
+            margin-bottom: 6px;
+            color: #334155;
+        }
+        .note {
+            background-color: #eff6ff;
+            border-left: 4px solid #1A237E;
+            padding: 12px 16px;
+            margin: 12px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e2e8f0;
+            text-align: center;
+            font-size: 0.85rem;
+            color: #94a3b8;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+                margin: 10px auto;
+            }
+        }
+    </style>
+</head>
+<body>
 
+<div class="container">
+    <h1>Kebijakan Privasi</h1>
+    <p class="effective-date"><strong>Dompet Harian Dukeduk</strong> | Tanggal Efektif: 29 September 2026</p>
+
+    <p><strong>Dompet Harian Dukeduk</strong> ("kami") berkomitmen untuk melindungi dan menghormati privasi pengguna ("Anda"). Kebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, menyimpan, dan melindungi informasi pribadi Anda saat menggunakan aplikasi mobile Dompet Harian Dukeduk.</p>
+
+    <h2>1. Informasi yang Kami Kumpulkan</h2>
+
+    <h3>a. Informasi Akun & Autentikasi (Firebase Auth / Google Sign-In)</h3>
+    <p>Saat Anda login ke aplikasi menggunakan akun Google atau metode autentikasi lainnya, kami mengumpulkan:</p>
+    <ul>
+        <li>Nama lengkap</li>
+        <li>Alamat email</li>
+        <li>Foto profil (opsional)</li>
+        <li>ID Pengguna unik (UID Firebase)</li>
+    </ul>
+
+    <h3>b. Akses Kamera (mobile_scanner)</h3>
+    <p>Aplikasi memerlukan izin akses kamera perangkat Anda khusus untuk fitur pemindaian kode QR / Barcode transaksi.</p>
+    <div class="note">
+        <strong>Catatan Keamanan:</strong> Kami <strong>tidak pernah</strong> merekam, menyimpan, atau mengirimkan gambar/video dari kamera Anda ke server kami. Kamera hanya berfungsi secara langsung (<em>real-time processing</em>) di perangkat Anda.
+    </div>
+
+    <h3>c. Penyimpanan & Data Keuangan (Storage & Database)</h3>
+    <p>Untuk menjalankan fungsi pencatatan keuangan harian, aplikasi mengakses penyimpanan lokal dan basis data cloud (Firebase Firestore) untuk menyimpan:</p>
+    <ul>
+        <li>Catatan transaksi masuk/keluar, daftar mutasi, dan kategori keuangan.</li>
+        <li>Gambar/foto bukti transaksi atau logo toko yang Anda unggah secara eksplisit.</li>
+        <li>Pengaturan preferensi aplikasi.</li>
+    </ul>
+
+    <h2>2. Penggunaan Informasi</h2>
+    <p>Informasi yang dikumpulkan digunakan untuk tujuan berikut:</p>
+    <ul>
+        <li>Mengelola autentikasi dan keamanan akun pengguna.</li>
+        <li>Menyinkronkan data pencatatan keuangan pribadi Anda secara aman antar perangkat.</li>
+        <li>Menyediakan fitur pemindaian QR/Barcode untuk kemudahan pencatatan.</li>
+        <li>Menampilkan ringkasan laporan keuangan dan mutasi dalam aplikasi.</li>
+    </ul>
+
+    <h2>3. Keamanan Data</h2>
+    <ul>
+        <li>Enkripsi data saat transit (HTTPS/SSL) dan enkripsi basis data cloud menggunakan infrastruktur Google Firebase.</li>
+        <li>Data transaksi yang disimpan secara lokal di perangkat Anda terlindungi oleh mekanisme keamanan sistem operasi Android.</li>
+        <li>Kami <strong>tidak pernah menjual, menyewakan, atau membagikan</strong> data pribadi atau pencatatan keuangan Anda kepada pihak ketiga mana pun.</li>
+    </ul>
+
+    <h2>4. Layanan Pihak Ketiga</h2>
+    <p>Aplikasi kami menggunakan layanan pihak ketiga terpercaya yang memiliki kebijakan privasinya sendiri:</p>
+    <ul>
+        <li>Google Play Services</li>
+        <li>Google Firebase (Firebase Auth & Cloud Firestore)</li>
+    </ul>
+
+    <h2>5. Hak Pengguna & Penghapusan Data</h2>
+    <p>Anda memiliki hak penuh atas data pribadi Anda:</p>
+    <ul>
+        <li><strong>Akses & Perubahan:</strong> Anda dapat memperbarui informasi profil atau mengubah catatan keuangan kapan saja langsung dari dalam aplikasi.</li>
+        <li><strong>Penghapusan Akun & Data:</strong> Anda dapat mengajukan permintaan penghapusan akun dan seluruh data pencatatan keuangan Anda dengan menghubungi kami melalui email dukungan di bawah ini.</li>
+    </ul>
+
+    <h2>6. Kontak Kami</h2>
+    <p>Jika Anda memiliki pertanyaan atau kendala terkait Kebijakan Privasi ini, silakan hubungi kami melalui:</p>
+    <ul>
+        <li><strong>Email:</strong> ronald.yonatan83@gmail.com/li>
+        <li><strong>Pengembang:</strong> Ronald Yonatan</li>
+    </ul>
+
+    <footer>
+        &copy; 2026 Dompet Harian Dukeduk. All rights reserved.
+    </footer>
+</div>
+
+</body>
+</html>
